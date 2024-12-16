@@ -266,9 +266,9 @@ def apps():
 def info():
     lcd.fill(BLACK)
     lcd.text("INFO", 30, 10, BLUE)
-    lcd.text("DashOS 1.2", 10, 30, WHITE)
-    lcd.text("BATA", 10, 50, WHITE)
-    lcd.text("By Olly", 10, 70, WHITE)
+    lcd.text("DashOS 0.0.1", 10, 30, WHITE)
+    lcd.text("release", 10, 50, WHITE)
+    lcd.text("By LoopDevs", 10, 70, WHITE)
     lcd.display()
     time.sleep(5)  # Display info for a while
     
